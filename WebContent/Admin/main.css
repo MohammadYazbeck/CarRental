@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+
+}
+
+body {
+	padding:0px;
+  overflow: hidden;
+  background-image: url("../img/texture.jpg");
+}
+
+
+
+.sidebar li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.sidebar li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  padding-left: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 6px;
+
+
+
+
+}
+
+.sidebar li a:hover {
+  background: #0170bf;
+  color: #fff;
+  border-radius: 6px;
+
+
+}
+
+.sidebar {
+  height: 100vh;
+
+  padding: 0px;
+  margin: 0px;
+  background-color: #0195ff;
+
+}
+
+.main1 {
+  height: 100vh;
+  background: transparent;
+  overflow: auto;
+  margin: 0px;
+}
+
+.lab {
+  display: none;
+  color: #0170bf;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+
+
+.logo {
+
+  color: #0170bf;
+  height: 10vh;
+  background-color: #0d0d0d;
+  text-align: center;
+}
+
+
+
+.smalllogo {
+  display: none;
+}
+
+.whitebox {
+  padding: 20px;
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border: #dddddd solid 1px;
+
+
+
+}
+
+#trigger {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  #trigger {
+    display: block;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  .sidebar {
+
+    height: auto;
+    width: 100%;
+    display: none;
+    padding: 15px;
+
+
+  }
+
+  .lab {
+    display: block;
+    color: #F8F9FA;
+    background-color: #0170bf;
+    margin: 0px;
+  }
+
+  #trigger {
+    display: none;
+  }
+
+  #trigger:checked+.sidebar {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .smalllogo {
+    display: block;
+    float: right;
+    text-align: center;
+    padding-right: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    overflow: hidden;
+  }
+
+  .sidebar {
+
+    height: auto;
+    width: 100%;
+    display: none;
+    padding: 15px;
+
+  }
+
+  .lab {
+    display: block;
+    background-color: #F8F9FA;
+    margin: 0px;
+  }
+
+  #trigger {
+    display: none;
+  }
+
+  #trigger:checked+.sidebar {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .smalllogo {
+    display: block;
+    float: right;
+    text-align: center;
+    padding-right: auto;
+  }
+}
+
+.card-dash {
+
+  width: 100%;
+  padding: 20px;
+  background-color: #F8F9FA;
+  border-radius: 8px;
+
+  border: #dddddd solid 1px;
+}
+
+.card-dash i {
+  color: #0170bf;
+}
+
+textarea {
+  resize: none;
+}

@@ -1,0 +1,205 @@
+
+
+body {
+  background-image: url("../img/texture.jpg");
+  background-attachment: fixed;
+  
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #ff793f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff793f;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 2px;
+  color: #ff793f !important;
+  font-weight: bold;
+  display: block;
+}
+
+.navbar-nav .nav-link.active {
+  color: #33d9b2 !important;
+}
+
+.nav-link:hover {
+  color: #33d9b2 !important;
+}
+
+.main {
+  background-color: white;
+  width: 80%;
+  margin-top: 15vh;
+  padding-bottom: 10vh;
+  margin-bottom: 15vh;
+  box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: #dddddd solid 1px;
+}
+
+.shadow-bt {
+  box-shadow: -1px 9px 31px -12px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: -1px 9px 31px -12px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: -1px 9px 31px -12px rgba(0, 0, 0, 0.78);
+}
+
+@media (max-width: 575.98px) {
+  .login {
+    background-color: white;
+    padding: 5%;
+    width: 80%;
+    margin-top: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: #dddddd solid 1px;
+  }
+  .m-tob {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .login {
+    background-color: white;
+    padding: 5%;
+    width: 80%;
+    margin-top: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: #dddddd solid 1px;
+  }
+  .m-tob {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .login {
+    background-color: white;
+    padding: 5%;
+    width: 80%;
+    margin-top: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: #dddddd solid 1px;
+  }
+  .m-tob {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .login {
+    background-color: white;
+    padding: 2%;
+    width: 50%;
+    margin-top: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: #dddddd solid 1px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login {
+    background-color: white;
+    padding: 2%;
+    width: 50%;
+    margin-top: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -4px 0px 23px -7px rgba(0, 0, 0, 0.39);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: #dddddd solid 1px;
+  }
+}
+
+.login label {
+  text-align: left;
+ 
+}
+
+.login input[type="submit"] {
+  background-color: #ff793f;
+
+}
+
+.btn-orange {
+  background-color: #ff793f;
+  outline: none;
+  border: none;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: #eb6d37;
+  transition: 0.3s;
+}
+
+.btn-orange:focus {
+  outline: none;
+}
+
+.btn-orange1 {
+  background-color: #ff793f;
+  outline: none;
+  border: none;
+  padding: 2%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.cartdiv {
+  background-color: #ffffff;
+
+  border-radius: 10px;
+}
